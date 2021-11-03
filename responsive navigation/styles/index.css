@@ -1,0 +1,73 @@
+/*font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    background-image: url(../images/cooking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    max-width: 100%;
+    height: auto;
+    background-color: maroon;
+    opacity: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-links ul {
+    display: flex;
+    padding: 1%;  
+}
+
+.navbar-links ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+.navbar-links ul li a {
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.navbar-links ul li a:hover {
+    background-color: darkgoldenrod;
+}
+
+.navbar-links ul li ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: maroon;
+    padding: 0.5rem;
+}
+.navbar-links ul li:hover ul {
+    display: block;
+    
+}
+
+.navbar-links ul li ul li {
+    max-width: 100%;
+    
+}
+
+.navbar-links ul li ul li a:hover {
+    background-color: darkgoldenrod;
+    
+}
+  
+
+
+
+
